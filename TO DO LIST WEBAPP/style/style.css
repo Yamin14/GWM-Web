@@ -1,0 +1,82 @@
+
+/* Heading */
+header {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+header h1 {
+    border-bottom: 3px solid white;
+    width: fit-content;
+}
+
+/* Body */
+body {
+    color: white;
+    background-color: darkslategray;
+}
+
+/* To Do List Body */
+section {
+    text-align: center;
+}
+
+/* Search and Add New */
+input {
+    border: 3px solid black;
+    font-size: 2rem;
+    padding: 5px;
+    margin-bottom: 1rem;
+}
+
+/* Each To Do */
+.to_dos {
+    font-size: 3rem;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+/* Delete Icon */
+img {
+    width: 2rem;
+}
+
+/* Edit Icon */
+.edit_btns {
+    width: 3rem;
+}
+
+/* Add New and Delete All Button */
+button {
+    font-size: 2rem;
+    margin: 2rem;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: darkgreen;
+    color: white;
+    border-color: white;
+}
+
+/* Delete All Button */
+#del_btn {
+    margin-top: 0px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: silver;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: gray;
+}
