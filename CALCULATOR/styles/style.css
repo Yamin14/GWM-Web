@@ -1,0 +1,119 @@
+
+/* Default Layout */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: green;
+}
+
+section, p, div {
+    width: 100%;
+}
+
+/* Input Bar*/
+p {
+    height: 6rem;
+    border: 3px solid green;
+    font-size: 5rem;
+    background-color: whitesmoke;
+    color: black;
+    padding: 5px;
+}
+
+#result {
+    text-align: end;
+}
+
+/* Buttons */
+button {
+    font-size: 4rem;
+    background-color: mediumaquamarine;
+    color: black;
+    border: 1px solid green;
+}
+
+/* Buttons Area */
+section {
+    display: flex;
+}
+
+/* Numbers and Clear and Delete */
+#numbers_clear_del {
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    flex: 2 1 auto;
+}
+
+/* Back and Clear Button */
+#ac_ce {
+    order: 1;
+    border: 3px solid green;
+}
+
+.ac_ce {
+    width: 50%;
+    font-size: 2rem;
+    background-color: orange;
+    padding: 0.5rem 0;
+}
+
+/* Numbers */
+#numbers {
+    order: 2;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    direction: rtl;
+    border: 3px solid green;
+}
+
+/* Zero take 2 spaces*/
+#number0 {
+    grid-column: span 2;
+}
+
+/* Operators */
+#operators {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    flex: 1 2 auto;
+    border: 3px solid green;
+}
+
+.operators {
+    width: 100%;
+    font-size: 3.8rem;
+    background-color: orange;
+}
+
+/* Footer */
+footer {
+    background-color: lightcoral;
+    color: black;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.3rem;
+    border: 0.3rem solid green;
+}
+
+/* Bigger Screen */
+@media screen and (min-width: 500px) {
+
+    /* Numbers */
+    button {
+        font-size: 5rem;
+    }
+
+    /* Operators */
+    .operators {
+        font-size: 4.6rem;
+    }
+
+    /* Footer */
+    footer {
+
+    }
+
+}
