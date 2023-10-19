@@ -5,7 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     background-color: green;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 section, p, div {
