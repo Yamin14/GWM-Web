@@ -20,7 +20,8 @@ p {
     background-color: whitesmoke;
     color: black;
     padding: 5px;
-    overflow: visible;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
 
 #result {
